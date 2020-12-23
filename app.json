@@ -17,7 +17,7 @@
             "required": false
         },
         "LANGUAGE": {
-            "description": "Botun dili. Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml",
+            "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => IN, Español => ES",
             "required": true,
             "value": "TR"
         },
@@ -55,6 +55,11 @@
         },
         "NO_ONLINE": {
             "description": "Çevrimiçi görünmek istemiyorsanız true yazın.",
+            "required": false,
+            "value": "true"
+        },
+        "COFFEEHOUSE_API_KEY": {
+            "description": "CoffeeHouse API Key. Need for Lydia. https://coffeehouse.intellivoid.net/",
             "required": false,
             "value": "true"
         }
